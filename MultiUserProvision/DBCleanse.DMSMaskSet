@@ -2918,6 +2918,24 @@
               <DataSetFilename Value="random_street_addr.dmds" />
             </DataSet_STADDR>
           </DMSPickedColumnAndDataSet>
+          <DMSPickedColumnAndDataSet>
+            <N2KSQLServerEntity_PickedColumn>
+              <N2KSQLServerEntity />
+              <ColumnName Value="PostalCode" />
+              <ColumnFullDataType Value="nvarchar(15)" />
+              <ColumnConversionWrapper Value="" />
+              <ColumnConversionEnabled Value="False" />
+              <OrdinalPosition Value="6" />
+              <DataType Value="nvarchar" />
+              <IsPseudoColumn Value="False" />
+              <DisplayUndefinedTextIfDatatypeNotDefined Value="True" />
+            </N2KSQLServerEntity_PickedColumn>
+            <DataSet_USZPGN>
+              <ZipOnly Value="True" />
+              <Zip4SpaceSeparation Value="False" />
+              <Zip4DashSeparation Value="False" />
+            </DataSet_USZPGN>
+          </DMSPickedColumnAndDataSet>
         </DMSPickedColumnAndDataSetCollection>
       </RuleSubstitution>
     </DMSRuleBindingList>
