@@ -2921,6 +2921,25 @@
           <DMSPickedColumnAndDataSet>
             <N2KSQLServerEntity_PickedColumn>
               <N2KSQLServerEntity />
+              <ColumnName Value="PostalCode" />
+              <ColumnFullDataType Value="nvarchar(15)" />
+              <ColumnConversionWrapper Value="" />
+              <ColumnConversionEnabled Value="False" />
+              <OrdinalPosition Value="6" />
+              <DataType Value="nvarchar" />
+              <IsPseudoColumn Value="False" />
+              <DisplayUndefinedTextIfDatatypeNotDefined Value="True" />
+            </N2KSQLServerEntity_PickedColumn>
+            <DataSet_USZPGN>
+              <ZipOnly Value="True" />
+              <Zip4SpaceSeparation Value="False" />
+              <Zip4DashSeparation Value="False" />
+            </DataSet_USZPGN>
+          </DMSPickedColumnAndDataSet>
+
+            <DMSPickedColumnAndDataSet>
+            <N2KSQLServerEntity_PickedColumn>
+              <N2KSQLServerEntity />
               <ColumnName Value="City" />
               <ColumnFullDataType Value="nvarchar(30)" />
               <ColumnConversionWrapper Value="" />
@@ -2934,7 +2953,6 @@
               <UpperCaseText Value="False" />
               <UniqueValuesOnly Value="False" />
             </DataSet_TWNNAM>
-          </DMSPickedColumnAndDataSet>
         </DMSPickedColumnAndDataSetCollection>
       </RuleSubstitution>
     </DMSRuleBindingList>
