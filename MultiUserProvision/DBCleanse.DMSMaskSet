@@ -2953,6 +2953,24 @@
               <UniqueValuesOnly Value="False" />
             </DataSet_TWNNAM>
           </DMSPickedColumnAndDataSet>
+          <DMSPickedColumnAndDataSet>
+            <N2KSQLServerEntity_PickedColumn>
+              <N2KSQLServerEntity />
+              <ColumnName Value="ModifiedDate" />
+              <ColumnFullDataType Value="datetime" />
+              <ColumnConversionWrapper Value="" />
+              <ColumnConversionEnabled Value="False" />
+              <OrdinalPosition Value="9" />
+              <DataType Value="datetime" />
+              <IsPseudoColumn Value="False" />
+              <DisplayUndefinedTextIfDatatypeNotDefined Value="True" />
+            </N2KSQLServerEntity_PickedColumn>
+            <DataSet_RNDDAT>
+              <ForceTimesToZero Value="False" />
+              <LowDate Value="20010204 04:33:19" />
+              <HighDate Value="20070617 22:12:01" />
+            </DataSet_RNDDAT>
+          </DMSPickedColumnAndDataSet>
         </DMSPickedColumnAndDataSetCollection>
       </RuleSubstitution>
       <RuleSubstitution NS="DMS_Common" AS="DMSO">
