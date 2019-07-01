@@ -3001,12 +3001,12 @@
               <IsPseudoColumn Value="False" />
               <DisplayUndefinedTextIfDatatypeNotDefined Value="True" />
             </N2KSQLServerEntity_PickedColumn>
-            <DataSet_UKTELE>
+            <DataSet_RDUSTL>
               <InvalidChecksum Value="False" />
               <DigitsOnly Value="True" />
               <SpaceSeparation Value="False" />
               <NoAreaCode Value="False" />
-            </DataSet_UKTELE>
+            </DataSet_RDUSTL>
           </DMSPickedColumnAndDataSet>
         </DMSPickedColumnAndDataSetCollection>
       </RuleSubstitution>
