@@ -2,7 +2,7 @@
 <!--Data Masker DMSMasking Set-->
 <DMSSetContainer_MaskingSet>
   <DMSVersion Value="6.2.7.2576" />
-  <MaskingSetId>qb6iCGeBGUGkVmCIp5KVBv1vdBh0FExLpyKJXoARiYA=</MaskingSetId>
+  <MaskingSetId>kqwo7OzF6UupUWMG+dFvjZLYUBMkNm5LsCHdDFHz3b0=</MaskingSetId>
   <MaskingSetOptions>
     <maskingSetNotesTitle Value="Comments and Notes" />
     <maskingSetNotesComments Value="Comments and notes are displayed here.&#xD;&#xA;&#xD;&#xA;Use the Edit button on the Misc. Setup tab to change this information or to prevent it from being shown." />
@@ -2977,7 +2977,7 @@
           <WhereClause Value="where ..." />
           <WhereClauseMode Value="Where_NotNullOrEmpty" />
           <WantSamplePercent Value="False" />
-          <SamplePercentage Value="100.00" />
+          <SamplePercentage Value="75" />
           <WantRowLimit Value="False" />
           <RowLimit Value="1000" />
           <WantDistinctSet Value="False" />
@@ -3001,12 +3001,65 @@
               <IsPseudoColumn Value="False" />
               <DisplayUndefinedTextIfDatatypeNotDefined Value="True" />
             </N2KSQLServerEntity_PickedColumn>
-            <DataSet_UKTELE>
+            <DataSet_RDUSTL>
               <InvalidChecksum Value="False" />
               <DigitsOnly Value="True" />
               <SpaceSeparation Value="False" />
               <NoAreaCode Value="False" />
-            </DataSet_UKTELE>
+            </DataSet_RDUSTL>
+          </DMSPickedColumnAndDataSet>
+        </DMSPickedColumnAndDataSetCollection>
+      </RuleSubstitution>
+      <RuleSubstitution NS="DMS_Common" AS="DMSO">
+        <DMSRule>
+          <RuleBlock Value="00" />
+          <RuleNumber Value="0006" />
+          <RuleSubscript Value="-01" />
+          <IsDisabled Value="False" />
+          <IsBulk Value="False" />
+          <WantMultipleActiveResultSets Value="False" />
+          <IsManagedRule Value="False" />
+          <CommitFreq Value="1000" />
+          <SerializedParentRuleID Value="00-0002" />
+          <Description Value="" />
+          <ExpandedState Value="False" />
+          <ForceIsNullsOff Value="False" />
+          <UserSpecifiedRIDIndexEnabled Value="False" />
+          <UserSpecifiedRIDIndex Value="" />
+        </DMSRule>
+        <TargetTableName Value="PersonPhone" />
+        <WhereClauseAndSamplingContainer>
+          <WhereClause Value="where ..." />
+          <WhereClauseMode Value="Where_NotNullOrEmpty" />
+          <WantSamplePercent Value="True" />
+          <SamplePercentage Value="10.00" />
+          <WantRowLimit Value="False" />
+          <RowLimit Value="1000" />
+          <WantDistinctSet Value="False" />
+          <ForceInLineNullSkips Value="False" />
+        </WhereClauseAndSamplingContainer>
+        <RangeOptionsContainer>
+          <RangeClause Value="" />
+          <RangeLow Value="" />
+          <RangeHigh Value="" />
+        </RangeOptionsContainer>
+        <DMSPickedColumnAndDataSetCollection>
+          <DMSPickedColumnAndDataSet>
+            <N2KSQLServerEntity_PickedColumn>
+              <N2KSQLServerEntity />
+              <ColumnName Value="PhoneNumber" />
+              <ColumnFullDataType Value="nvarchar(25)" />
+              <ColumnConversionWrapper Value="" />
+              <ColumnConversionEnabled Value="False" />
+              <OrdinalPosition Value="2" />
+              <DataType Value="nvarchar" />
+              <IsPseudoColumn Value="False" />
+              <DisplayUndefinedTextIfDatatypeNotDefined Value="True" />
+            </N2KSQLServerEntity_PickedColumn>
+            <DataSet_FRTELE>
+              <DigitsOnly Value="True" />
+              <SpaceSeparation Value="False" />
+            </DataSet_FRTELE>
           </DMSPickedColumnAndDataSet>
         </DMSPickedColumnAndDataSetCollection>
       </RuleSubstitution>
