@@ -2966,7 +2966,7 @@
           <IsManagedRule Value="False" />
           <CommitFreq Value="1000" />
           <SerializedParentRuleID Value="00-0002" />
-          <Description Value="" />
+          <Description Value="Email Address Branching" />
           <ExpandedState Value="False" />
           <ForceIsNullsOff Value="False" />
           <UserSpecifiedRIDIndexEnabled Value="False" />
